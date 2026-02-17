@@ -1,12 +1,12 @@
 # Multiclass_Fish_Image_Classification
 This project focuses on classifying fish images into multiple categories using deep learning models. The task involves training a Convolutional Neural Network (CNN) from scratch and leveraging transfer learning with pre-trained models to enhance performance. The project demonstrates the complete machine learning pipeline from data preprocessing to model deployment with a Streamlit web application.
 
-Key Objectives:
+#Key Objectives:
 Determine the best model architecture for fish image classification
 Create a user-friendly web application for real-time predictions
 Evaluate and compare metrics across multiple models
 Deploy the trained model for practical use
-🎯 Domain & Problem Statement
+#🎯 Domain & Problem Statement
 Domain: Image Classification
 Task: Multi-class fish species classification using deep learning
 
@@ -16,7 +16,7 @@ Marine biology research
 Fisheries management
 Aquatic ecosystem monitoring
 Commercial fishing operations
-💡 Skills Developed
+#💡 Skills Developed
 Deep Learning: CNN architecture design, transfer learning
 Python: TensorFlow/Keras for model development
 Data Processing: Image preprocessing, augmentation, normalization
@@ -24,7 +24,7 @@ Data Visualization: Matplotlib for training history and results
 Model Evaluation: Precision, recall, F1-score, confusion matrix
 Deployment: Streamlit for web application development
 Version Control: GitHub for code management
-📊 Dataset
+#📊 Dataset
 Dataset Composition:
 
 Total Images: 8,386 images across 11 fish species
@@ -45,7 +45,7 @@ Fish Seafood Striped Red Mullet (438 images)
 Fish Seafood Trout (464 images)
 Data Source: Images organized in folders by species, loaded using TensorFlow's ImageDataGenerator
 
-🔧 Methodology & Approach
+🔧# Methodology & Approach
 1. Data Preprocessing & Augmentation
 Rescale images to [0, 1] range for normalization
 Image resizing to 224×224 pixels (standard size for pre-trained models)
